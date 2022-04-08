@@ -3,12 +3,12 @@ package qa.guru.config;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "classpath:/${typeProperties}.properties"
+        "classpath:${typeProperties}.properties"
 })
 
 public interface WebConfig extends Config {
 
-    @Key("browser")
+    @Key("browserName")
     String browserName();
 
     @Key("browserVersion")

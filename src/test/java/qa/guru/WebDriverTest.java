@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
-public class WebDriverTest {
+public class WebDriverTest extends TestBase{
 
     @Test
     public void webTest() {
